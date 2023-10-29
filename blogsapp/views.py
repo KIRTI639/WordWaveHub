@@ -61,7 +61,7 @@ def search(request):
 
 def news(request):
   
-    url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=c28a325f5aff4be99abc6f71d5278bd6"
+    url = "https://newsapi.org/v2/top-headlines?country=in&apiKey=enter api key here"
     data = requests.get(url).json()
     articles = data['articles']
     myarticles = []
